@@ -1,0 +1,9 @@
+.container .content ~p{
+    color:red;
+}
+.container .content +p{
+    color:yellow;
+}
+.container .content >p{
+    color:purple;
+}

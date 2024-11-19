@@ -1,0 +1,24 @@
+p.container.content {
+    color:red;
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.content p{
+    color:blue;
+    font-size:x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container .content p{
+    color:orange;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.container.content p{
+    color:brown;
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+}
