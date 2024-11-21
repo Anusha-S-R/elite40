@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: red;
+}
+.container a {
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.content .main .change p {
+  color: yellow;
+}
+.content .main .change a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */

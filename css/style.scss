@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+$col:#fff;
+$bg-color:red;
+
+@mixin anchor-code($col:red#fff){
+    color: $col;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container{
+    background-color:$bg-color;
+                a{
+                    color:blue;
+                    font-size:20px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+            }
+            .content{
+                .main{
+                    .change{
+                        p{
+                            color: yellow;
+                        }
+                        a{
+                            color:$col;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
